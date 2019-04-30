@@ -1,6 +1,6 @@
 import os
 
-filenames = os.listdir()
+filenames = os.listdir(os.getcwd()+"/all")
 def isLeetcode(filename):
     return "_" in filename
 def isLeetcode400(filename):
